@@ -77,6 +77,7 @@
       cursor: pointer;
       margin-top: 1rem;
       transition: background 0.3s ease, transform 0.3s ease;
+      text-decoration: unset;
 
       &:hover {
         background: #52e0c4;

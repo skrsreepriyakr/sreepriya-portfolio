@@ -39,7 +39,7 @@ function About() {
         I'm open to <strong>Job</strong> opportunities where I can contribute, grow, and learn. If you think my experience aligns with your needs, please feel free to <strong>contact</strong> me.
       </p>
 
-      <button className="contact-btn">Contact</button>
+      <a href="#contact" className="btn contact-btn">Contact</a>
     </div>
 
     {/* Right Content */}
