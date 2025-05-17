@@ -1,0 +1,24 @@
+@import './variables.scss';
+
+.footer {
+  background-color: #0a192f;
+  color: #ffffff;
+  text-align: center;
+  padding: 2rem 1rem;
+  font-size: 0.95rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+
+  p {
+    margin: 0;
+  }
+
+  a {
+    color: #2afadf;
+    text-decoration: none;
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: #ffffff;
+    }
+  }
+}

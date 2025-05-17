@@ -1,0 +1,136 @@
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes moveBackground {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 100%;
+  }
+}
+
+@keyframes slideInUp {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 17ch;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: #7fa7b9;
+  }
+}
+
+/* Hero Section */
+.hero {
+  position: relative;
+  height: 100vh;
+  background: $hero-gradient;
+  background-size: 600% 600%;
+  animation: gradientAnimation 20s ease infinite;
+  color: #333; /* Text color darker for lighter background */
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+  background-size: cover;
+background-repeat: no-repeat;
+
+  // &::before, &::after {
+  //   content: '';
+  //   position: absolute;
+  //   top: 0; left: 0;
+  //   width: 100%;
+  //   height: 100%;
+  //   background: radial-gradient(circle, rgba(255, 255, 255, 0.6) 1px, transparent 1px);
+  //   background-size: 20px 20px;
+  //   animation: moveBackground 60s linear infinite;
+  //   z-index: 1;
+  // }
+
+  // &::after {
+  //   background-size: 40px 40px;
+  //   animation-duration: 80s;
+  // }
+
+  // &::before {
+  //   background-size: 30px 30px;
+  //   animation-duration: 50s;
+  // }
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 700px;
+  padding: 1rem;
+  animation: slideInUp 1.5s ease forwards;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.tagline {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.name {
+  font-weight: bold;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 2px solid #333;
+  width: 0;
+  animation: typing 2s steps(17) forwards, blink 0.8s step-end infinite;
+  color: white;
+  font-size: 3rem;
+}
+
+.role {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  animation: slideInUp 2s ease forwards;
+  animation-delay: 0.5s;
+  opacity: 0;
+  transition: text-shadow 0.3s ease;
+  color: #00b8a9;
+  font-size: 2rem;
+
+  &:hover {
+    text-shadow: 0 0 8px #5e2ced, 0 0 16px #5e2ced;
+  }
+}
+
+.description {
+  font-size: 1rem;
+  color: #e4e4e4;
+  margin-top: 1rem;
+  animation: slideInUp 2s ease forwards;
+  animation-delay: 1s;
+  opacity: 0;
+}

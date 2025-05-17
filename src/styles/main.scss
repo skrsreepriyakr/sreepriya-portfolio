@@ -1,0 +1,13 @@
+@import "variables";
+@import "mixins";   // ✅ Shared utility functions first
+@import "global";   // Base styles
+@import "Header";   // Components
+@import "Home";     // Components
+@import "About";
+@import "Contact";
+
+// body {
+//     background-color: #f8f9fa;
+//     font-family: Arial, sans-serif;
+//     color: #333;
+//   }

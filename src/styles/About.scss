@@ -1,0 +1,123 @@
+@import './variables.scss';
+
+.about-section {
+  padding: 5rem 2rem 2rem;
+  background: #0A192F;
+  display: flex;
+  justify-content: center;
+
+  .about-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    background: #112240;
+    border-radius: 1.5rem;
+    padding: 3rem 2rem;
+    box-shadow: 0 8px 30px rgba(2, 12, 27, 0.7);
+    max-width: 1200px;
+    width: 100%;
+  }
+
+  .about-left {
+    flex: 1;
+    min-width: 280px;
+
+    h3 {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+      font-weight: 700;
+      color: $accent-color;
+    }
+
+    .about-thumbnail {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 1rem;
+      border: 3px solid $accent-color;
+    }
+
+    p {
+      font-size: 1rem;
+      line-height: 1.8;
+      margin-bottom: 1rem;
+      color: #CCD6F6;
+
+      strong {
+        font-weight: 600;
+        color: $accent-color;
+      }
+
+      a {
+        color: $accent-color;
+        font-weight: 600;
+        text-decoration: underline;
+        text-underline-offset: 2px;
+
+        &:hover {
+          text-decoration-thickness: 2px;
+          text-decoration-color: lighten($accent-color, 10%);
+        }
+
+        .link-icon {
+          font-size: 0.85rem;
+          margin-left: 0.25rem;
+        }
+      }
+    }
+
+    .contact-btn {
+      background: $accent-color;
+      color: #0A192F;
+      padding: 0.8rem 1.5rem;
+      border: none;
+      border-radius: 8px;
+      font-weight: 600;
+      cursor: pointer;
+      margin-top: 1rem;
+      transition: background 0.3s ease, transform 0.3s ease;
+
+      &:hover {
+        background: #52e0c4;
+        transform: translateY(-3px);
+      }
+    }
+  }
+
+  .about-right {
+    flex: 0.8;
+    min-width: 280px;
+
+    h4 {
+      font-size: 1.4rem;
+      margin-bottom: 1rem;
+      font-weight: 600;
+      color: $accent-color;
+    }
+
+    .skills-points {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+
+      li {
+        background: #233554;
+        padding: 0.75rem 1rem;
+        margin-bottom: 0.7rem;
+        border-radius: 8px;
+        font-size: 1rem;
+        font-weight: 500;
+        color: #CCD6F6;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        line-height: 1.6;
+
+        &:before {
+          content: "";
+        }
+      }
+    }
+  }
+}
