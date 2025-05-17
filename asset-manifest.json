@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/sreepriya-portfolio/static/css/main.cda44bc4.css",
+    "main.js": "/sreepriya-portfolio/static/js/main.da401c36.js",
+    "static/media/profile.jpg": "/sreepriya-portfolio/static/media/profile.e2b48ff0702532716a18.jpg",
+    "index.html": "/sreepriya-portfolio/index.html",
+    "main.cda44bc4.css.map": "/sreepriya-portfolio/static/css/main.cda44bc4.css.map",
+    "main.da401c36.js.map": "/sreepriya-portfolio/static/js/main.da401c36.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cda44bc4.css",
+    "static/js/main.da401c36.js"
+  ]
+}
