@@ -35,8 +35,8 @@ function Projects() {
   </div>
   <div className="status">✅ Completed</div>
   <div className="status-links">
-    <a href="https://your-live-link.com" target="_blank" rel="noopener noreferrer">🔗 <span>Live</span></a>
-    <a href="https://github.com/your-repo-link" target="_blank" rel="noopener noreferrer">💻 <span>Code</span></a>
+    <a href="https://skrsreepriyakr.github.io/Javascript-projects/" target="_blank" rel="noopener noreferrer">🔗 <span>Live</span></a>
+    <a href="https://github.com/skrsreepriyakr/Javascript-projects" target="_blank" rel="noopener noreferrer">💻 <span>Code</span></a>
   </div>
 </div>
 
@@ -47,7 +47,12 @@ function Projects() {
     <span>React</span>
     <span>SCSS</span>
   </div>
-  <div className="status">🚧 In Progress</div>
+  {/* <div className="status">🚧 In Progress</div> */}
+    <div className="status">✅ Completed</div>
+   <div className="status-links">
+    <a href="https://skrsreepriyakr.github.io/sreepriya-portfolio/#contact" target="_blank" rel="noopener noreferrer">🔗 <span>Live</span></a>
+    <a href="https://github.com/skrsreepriyakr/sreepriya-portfolio" target="_blank" rel="noopener noreferrer">💻 <span>Code</span></a>
+  </div>
 </div>
 
       <div className="project-card">
@@ -56,14 +61,15 @@ function Projects() {
           A collection of small JavaScript projects like number guessing game, dice roller, and more — all linked from a single HTML page.
         </p>
         <div className="tags">
-          <span>JavaScript</span>
+          <span>React</span>
           <span>HTML</span>
           <span>CSS</span>
         </div>
-        <div className="status-links">
+        <div className="status">🚧 In Progress</div>
+        {/* <div className="status-links">
           <a href="https://your-js-project-live-link.com" target="_blank" rel="noopener noreferrer">🔗 Live</a>
           <a href="https://github.com/your-js-project-repo" target="_blank" rel="noopener noreferrer">💻 Code</a>
-        </div>
+        </div> */}
       </div>
       
     </div>
