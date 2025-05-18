@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import profilePic from "../assets/profile.jpg";
+import profilePic from "../assets/my-pic.jpg";
 import "../styles/About.scss";
 
 function About() {
