@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/sreepriya-portfolio/static/css/main.9359bedc.css",
-    "main.js": "/sreepriya-portfolio/static/js/main.d331d948.js",
-    "static/media/profile.jpg": "/sreepriya-portfolio/static/media/profile.e2b48ff0702532716a18.jpg",
+    "main.js": "/sreepriya-portfolio/static/js/main.d1fee30e.js",
+    "static/media/my-pic.jpg": "/sreepriya-portfolio/static/media/my-pic.f4048cb70a2c90e6b5b7.jpg",
     "index.html": "/sreepriya-portfolio/index.html",
     "main.9359bedc.css.map": "/sreepriya-portfolio/static/css/main.9359bedc.css.map",
-    "main.d331d948.js.map": "/sreepriya-portfolio/static/js/main.d331d948.js.map"
+    "main.d1fee30e.js.map": "/sreepriya-portfolio/static/js/main.d1fee30e.js.map"
   },
   "entrypoints": [
     "static/css/main.9359bedc.css",
-    "static/js/main.d331d948.js"
+    "static/js/main.d1fee30e.js"
   ]
 }
