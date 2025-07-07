@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import profilePic from "../assets/my-pic.jpg";
+// import profilePic from "../assets/my-pic.jpg";
 import "../styles/About.scss";
 
 function About() {
@@ -18,7 +18,7 @@ function About() {
       <h3>Get to know me!</h3>
 
       {/* Thumbnail Image */}
-      <img className="about-thumbnail" src={profilePic} alt="Sreepriya's profile" />
+      {/* <img className="about-thumbnail" src={profilePic} alt="Sreepriya's profile" onContextMenu={(e) => e.preventDefault()}/> */}
 
       <p>
         I'm a <strong>Frontend Developer</strong> with 3+ years of experience, focused on building clean and responsive interfaces for Websites and Web Applications. You can explore some of my work in the <strong>Projects</strong> section.
