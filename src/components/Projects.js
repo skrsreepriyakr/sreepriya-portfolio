@@ -65,7 +65,11 @@ function Projects() {
           <span>HTML</span>
           <span>CSS</span>
         </div>
-        <div className="status">🚧 In Progress</div>
+        <div className="status">✅ Completed</div>
+   <div className="status-links">
+    <a href="https://skrsreepriyakr.github.io/react-miniProjects/" target="_blank" rel="noopener noreferrer">🔗 <span>Live</span></a>
+    <a href="https://github.com/skrsreepriyakr/react-miniProjects" target="_blank" rel="noopener noreferrer">💻 <span>Code</span></a>
+  </div>
         {/* <div className="status-links">
           <a href="https://your-js-project-live-link.com" target="_blank" rel="noopener noreferrer">🔗 Live</a>
           <a href="https://github.com/your-js-project-repo" target="_blank" rel="noopener noreferrer">💻 Code</a>
